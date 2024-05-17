@@ -13,6 +13,20 @@ import java.util.Scanner;
  * racecar.
  */
 public class TASK1 {
-     
- 
+     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+		System.out.print("Digite uma palavra para verificar se ela é um palíndromo: ");
+		String palavra = input.next();
+		
+		String palavraInvertida = "";
+		
+		for(int i = (palavra.length()-1); i>=0; i--) {
+			palavraInvertida += palavra.charAt(i);
+		}
+		if(palavraInvertida.equals(palavra)) {
+			System.out.println("A palavra '"+ palavra + "' é um palíndromo");
+		} else {
+			System.out.println("A palavra '"+ palavra +"' não é um palíndromo");
+		}
+     }
 }
