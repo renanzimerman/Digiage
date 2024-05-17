@@ -28,5 +28,5 @@ public class TASK1 {
 		} else {
 			System.out.println("A palavra '"+ palavra +"' não é um palíndromo");
 		}
-     }
+   }
 }
