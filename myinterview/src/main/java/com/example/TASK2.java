@@ -23,5 +23,5 @@ public class TASK2 {
 	objeto.remove(meioLista);
 		
 	System.out.println(objeto);
-	}
+   }
 }
