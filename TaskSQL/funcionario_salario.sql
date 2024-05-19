@@ -1,10 +1,10 @@
 SELECT 
     e.gender,
-    AVG(s.salary) AS salario_total,
-    MIN(s.salary) AS media_min,
-    MAX(s.salary) AS media_max
+    AVG(s.salary) AS media_salario,
+    MIN(s.salary) AS salario_min,
+    MAX(s.salary) AS salario_max
 FROM 
-    employees e
+    employees_2 e
 JOIN 
     salaries s
 ON 
