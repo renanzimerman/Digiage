@@ -33,22 +33,17 @@ public class TASK4 {
 
             connection.disconnect();
 
-            // Converte a resposta para um JSONArray
             JSONArray jsonArray = new JSONArray(response.toString());
 
-            // Mapa para armazenar a contagem de cada gênero
             Map<String, Integer> genderCount = new HashMap<>();
 
-            // Itera sobre cada objeto no JSONArray
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                 String gender = jsonObject.getString("gender");
 
-                // Atualiza a contagem no mapa
                 genderCount.put(gender, genderCount.getOrDefault(gender, 0) + 1);
             }
 
-            // Imprime a contagem de cada gênero
             for (Map.Entry<String, Integer> entry : genderCount.entrySet()) {
                 System.out.println("Gênero: " + entry.getKey() + " - Contagem: " + entry.getValue());
             }
