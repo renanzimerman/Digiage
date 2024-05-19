@@ -2,6 +2,11 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 /**
  * Create an implementation of a Rest API client.
  * Prints out how many records exists for each gender and save this file to s3 bucket
@@ -10,9 +15,8 @@ import java.net.URL;
  *
  */
 public class TASK4 {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
         try {
-            @SuppressWarnings("deprecation")
             URL url = new URL("https://3ospphrepc.execute-api.us-west-2.amazonaws.com/prod/RDSLambda");
 
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -27,9 +31,27 @@ public class TASK4 {
             }
             reader.close();
 
-            System.out.println(response.toString());
-
             connection.disconnect();
+
+            // Converte a resposta para um JSONArray
+            JSONArray jsonArray = new JSONArray(response.toString());
+
+            // Mapa para armazenar a contagem de cada gênero
+            Map<String, Integer> genderCount = new HashMap<>();
+
+            // Itera sobre cada objeto no JSONArray
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                String gender = jsonObject.getString("gender");
+
+                // Atualiza a contagem no mapa
+                genderCount.put(gender, genderCount.getOrDefault(gender, 0) + 1);
+            }
+
+            // Imprime a contagem de cada gênero
+            for (Map.Entry<String, Integer> entry : genderCount.entrySet()) {
+                System.out.println("Gênero: " + entry.getKey() + " - Contagem: " + entry.getValue());
+            }
 
         } catch (Exception e) {
             e.printStackTrace();
