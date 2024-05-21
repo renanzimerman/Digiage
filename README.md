@@ -36,6 +36,8 @@ e colarem o código nessa query e rodarem o projeto.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+A análise do gráfico junto com a print do momento exato no qual foi análisado está dentro da pasta Gráfico.
+
 
 
 
