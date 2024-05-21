@@ -21,15 +21,7 @@ que precisar.
 
 Aqui vão as instruções de como instalar e usar o projeto para testarem as query no SQL
 
-1- instale em sua máquina o MySQL Workbench, assim que você abrir terá que logar em uma rede com os seguintes dados para acesso
-
-Dados para acessos:
-
-MySql =>
-host = rds-interview.digiage.com.br
-usr = interview
-pwd = 2MLGz6q5py4mFNII
-database = employees
+1- instale em sua máquina o MySQL Workbench, assim que você abrir terá que logar em uma rede com os dados para acesso dísponivel no projeto de tasks da Coodesh
 
 2- Após logarem na rede basta pegar o código SQL que está no seguinte caminho (TaskSQL), e dentro do MySQL Workbench já logado na rede, criar uma nova query 
 e colarem o código nessa query e rodarem o projeto.
