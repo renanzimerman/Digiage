@@ -12,8 +12,8 @@ basta apenas baixarem os arquivos, abrirem com o Visual Studio Code com as exten
 rodarem o código.
 
 3- A TASK5 está no seguinte caminho (TASK5/demo/src/main/java/com/exemple/demo), basta apenas baixarem o arquivo, abrir com o Visual Studio Code,
-após estar aberno no Vs Code, entrem no arquivo DemoApplication.java e rodem o código, após isso irá aparecer no terminal uma mensagem do Spring Boot,
-isso quer dizer que foi um sucesso, apos isso abra o código do request.http, dentro dele você ira fazer as requisições com o método CRUD, dentro do
+após estar aberto no Vs Code, entrem no arquivo DemoApplication.java e rodem o código, após isso irá aparecer no terminal uma mensagem do Spring Boot,
+isso quer dizer que foi um sucesso, após isso abra o código do request.http, dentro dele você ira fazer as requisições com o método CRUD, dentro do
 request.http o método GET, POST, PUT e DELETE, terá um botão acima de cada um escrito "Send Rquest", apertando nele você fará todas as requisição de
 que precisar.
 
