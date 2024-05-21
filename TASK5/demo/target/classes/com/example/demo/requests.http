@@ -1,0 +1,36 @@
+# GET all persons
+GET http://localhost:8080/api/persons
+Accept: application/json
+
+###
+
+# GET a person by ID
+GET http://localhost:8080/api/persons/1
+Accept: application/json
+
+###
+
+# POST create a new person
+POST http://localhost:8080/api/persons
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 30
+}
+
+###
+
+# PUT update a person by ID
+PUT http://localhost:8080/api/persons/1
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "age": 25
+}
+
+###
+
+# DELETE a person by ID
+DELETE http://localhost:8080/api/persons/1
