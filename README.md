@@ -35,3 +35,18 @@
 ## Support
 
 Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the process or send a message directly to a specialist in the platform chat.
+
+
+
+
+
+
+
+- Deve conter o título do projeto
+- Uma descrição do projeto em uma frase
+- Deve incluir uma lista de linguagens, estruturas e/ou tecnologias usadas
+- Como instalar e usar o projeto (instruções)
+- Não se esqueça do [.gitignore](https://www.toptal.com/developers/gitignore)
+- Se você estiver usando um GitHub pessoal, mencione que é um desafio da Coodesh:
+
+> Este é um desafio de [Coodesh](https://coodesh.com/)
