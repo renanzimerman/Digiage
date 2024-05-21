@@ -2,7 +2,7 @@ Este é um desafio de [Coodesh](https://coodesh.com/)
 Projeto feito para resolver algumas tasks e entre outros desafios.
 Foram ultilizados nesse projeto as linguagem Java e SQL.
 
-Aqui vão as instruções de como instalar e usar o projeto.
+Aqui vão as instruções de como instalar e usar o projeto para testarem as tasks.
 
 1- As task de 1 a 5 foram feitas no Visual Studio Code, primeiro passo instale o Vs Code e dentro dele instalem as seguintes extenções
 Spring Boot Extension Pack, Extension Pack for Java e HTTP Client.
@@ -17,7 +17,26 @@ isso quer dizer que foi um sucesso, apos isso abra o código do request.http, de
 request.http o método GET, POST, PUT e DELETE, terá um botão acima de cada um escrito "Send Rquest", apertando nele você fará todas as requisição de
 que precisar.
 
-4- 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Aqui vão as instruções de como instalar e usar o projeto para testarem as query no SQL
+
+1- instale em sua máquina o MySQL Workbench, assim que você abrir terá que logar em uma rede com os seguintes dados para acesso
+
+Dados para acessos:
+
+MySql =>
+host = rds-interview.digiage.com.br
+usr = interview
+pwd = 2MLGz6q5py4mFNII
+database = employees
+
+2- Após logarem na rede basta pegar o código SQL que está no seguinte caminho (TaskSQL), e dentro do MySQL Workbench já logado na rede, criar uma nova query 
+e colarem o código nessa query e rodarem o projeto.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
