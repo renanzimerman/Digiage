@@ -5,7 +5,7 @@ Foram ultilizados nesse projeto as linguagem Java e SQL.
 Aqui vão as instruções de como instalar e usar o projeto para testarem as tasks.
 
 1- As task de 1 a 5 foram feitas no Visual Studio Code, primeiro passo instale o Vs Code e dentro dele instalem as seguintes extenções
-Spring Boot Extension Pack, Extension Pack for Java e HTTP Client.
+Spring Boot Extension Pack, Extension Pack for Java e HTTP Client, juntamente com a biblioteca Json para as TASK4 e TASK5.
 
 2- As TASK1, TASK2, TASK3 e TASK4 estão no seguinte caminho (myinterview/src/main/java/com/exemple), para rodarem essas tasks
 basta apenas baixarem os arquivos, abrirem com o Visual Studio Code com as extenções instaladas, e assim vai estar pronto para
