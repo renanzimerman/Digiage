@@ -1,6 +1,6 @@
 Este é um desafio de [Coodesh](https://coodesh.com/)
 Projeto feito para resolver algumas tasks e entre outros desafios.
-Foram ultilizados nesse projeto as linguagem Java e SQL.
+Foram ultilizados nesse projeto as linguagem Java e SQL e o Visual Studio Code e MySQL Workbench.
 
 Aqui vão as instruções de como instalar e usar o projeto para testarem as tasks.
 
